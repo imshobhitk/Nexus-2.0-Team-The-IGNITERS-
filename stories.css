@@ -1,0 +1,192 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/minimalist-white-background-with-neumorphic-circle_1017-39167.jpg?size=626&ext=jpg&ga=GA1.1.1484269263.1681490551&semt=ais);
+}
+
+.logo{
+    height:100px;
+    width:100px;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:10px;
+    overflow:hidden;
+}
+
+li{
+    float:left;
+}
+
+li a {
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+
+a.nav:hover{
+    color: brown;
+    font-weight:bolder;
+    border-bottom-style:dashed;
+}
+
+.navlinks{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold ;
+}
+
+.login{
+    border:1px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25px;
+}
+
+.signup{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a.login{
+    background-color:chocolate;
+    color: whitesmoke;
+}
+
+a.login:hover{
+    background-color: black;
+    color:white;
+}
+
+a.signup:hover{
+    color:blueviolet;
+    font-family:sans-serif;
+}
+
+.image1{
+    padding: 0px;
+    height:400px;
+    width:600px;
+}
+
+.part1{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding:15px;
+    justify-content: center;
+}
+
+.para1{
+    padding: 20px;
+}
+
+.scroll{
+    font-size:50px;
+    border:1px solid black;
+    font-family: 'Anton', sans-serif;
+    color:olive;
+    position: relative;
+    animation: bounce 2s infinite;
+    padding:0px;
+    background-color:rgb(244, 218, 230);
+}
+
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: 20px; }
+    100% { top: 0; }
+}
+
+.content1{
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+
+.gif1{
+    float:left;
+    padding-left: 150px;
+    height: 300px;
+    width:300px;
+}
+
+.gif2{
+    float:right;
+    padding-right:150px;
+    height: 300px;
+    width:300px;
+}
+
+.para3{
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.para4{
+    display: flex;
+}
+
+.para5{
+    display: flex;
+}
+
+.para6{
+    display: flex;
+}
+
+.para7{
+    display: flex;
+}
+
+.para8{
+    display: flex;
+}
+
+.para9{
+    display: flex;
+}
+
+.para10{
+    display: flex;
+}
+
+.para11{
+    display: flex;
+}
+
+.para12{
+    display: flex;
+}
+
+.para13{
+    display: flex;
+}
+
+.content3, .content4, .content5, .content6, .content7, .content8, .content9, .content10, .content11, .content12{
+    padding:20px;
+}
+
+.image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11{
+    padding-left:25px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+
+.content1, .content2{
+    font-size: large;
+}
+
+.content3, .content4, .content5, .content6, .content7, .content8, .content9, .content10, .content11, .content12{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#464343
+}
+
+hr{
+    opacity: 60%;
+}

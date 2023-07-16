@@ -1,0 +1,121 @@
+body{
+    background-image: url(https://wepik.com/api/image/ai/33cfb03a-f179-4403-994c-1b55aef4e01b);
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+.container{
+    display: flex;
+}
+
+.head1{
+    font-size: 60px;
+    margin-top:0%;
+    margin-bottom: 0%;
+    padding-left: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background: linear-gradient(to left,
+                    violet,
+                    white,
+                    green,
+                    yellow,
+                    orange,
+                    red,
+                    yellow);
+            -webkit-background-clip: text;
+            color: transparent;
+}
+
+.head2{
+    font-size:20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.head3{
+    padding-left: 260px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-family:cursive;
+    color:whitesmoke;
+}
+
+form {
+    width: 540px;
+    
+    padding: 5px;
+    float: right;
+    padding-right: 15px;
+    font-family:Arial, sans-serif;
+    border-radius: 25px;
+    background-image:url(https://img.freepik.com/free-vector/flat-design-abstract-background_23-2149116123.jpg?size=626&ext=jpg&ga=GA1.2.1484269263.1681490551&semt=ais);
+}
+
+.form{
+    border: black;
+    padding:0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 21px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@keyframes blink {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: brown;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+.blink{
+    animation: blink 1s infinite;
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
